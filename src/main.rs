@@ -5,6 +5,8 @@ use windows::Win32::{Foundation::GetLastError, System::{Diagnostics::Debug::Writ
 
 fn main() {
     // Get reference to NtTraceEvent and other Nt functions we want
+    // Using my implementation of Hell's Gate. I have published this library, for more info
+    // check my blog: https://fluxsec.red/rust-edr-evasion-hells-gate
     let mut exports = ExportList::new();
 
     match exports.add("ntdll.dll", "NtTraceEvent"){
