@@ -27,5 +27,10 @@ If you want to check out my blog post on Hell's Gate, click
 
 ## Proof
 
-Before patching:
+**Before** patching:
 
+![image](https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/fb29813c-0dd5-42c7-bf65-a9c28527651a)
+
+**After** patching:
+
+![image](https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/9fe3a86b-fdd5-41e4-aad6-7faa997abf97)
