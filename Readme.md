@@ -1,5 +1,7 @@
 # Event Tracing for Windows ETW Bypass in Rust
 
+I have written about this on my blog, check it [here](https://fluxsec.red/etw-patching-rust)!
+
 Event Tracing for Windows (ETW) is a logging framework provided by Microsoft for Windows. 
 ETW allows software developers and system admins to obtain detailed, real-time 
 diagnostic information about system and application behavior. It provides a unified and efficient mechanism 
