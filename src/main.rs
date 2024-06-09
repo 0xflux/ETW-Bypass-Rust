@@ -5,7 +5,7 @@ use windows::Win32::{Foundation::GetLastError, System::{Diagnostics::Debug::Writ
 
 fn main() {
     // Get reference to NtTraceEvent
-    // Using my implementation of Hell's Gate. I have published this library, for more info
+    // Using my library export-resolver. I have published this library to crates.io, for more info
     // check my blog: https://fluxsec.red/rust-edr-evasion-hells-gate
     let mut exports = ExportList::new();
 
