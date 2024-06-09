@@ -25,14 +25,14 @@ dynamically via the PEB.
 
 ## Proof
 
-**Before** patching:
+### **Before** patching:
 
 ![image](https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/fb29813c-0dd5-42c7-bf65-a9c28527651a)
 
 <img width="1481" alt="etw-test-1" src="https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/9a7e8f70-5a03-45eb-b5df-53d521693778">
 
 
-**After** patching:
+### **After** patching:
 
 ![image](https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/9fe3a86b-fdd5-41e4-aad6-7faa997abf97)
 
