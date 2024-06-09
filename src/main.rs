@@ -1,4 +1,4 @@
-use std::{arch::asm, ffi::c_void, mem, ptr::null_mut};
+use std::{arch::asm, ffi::c_void, mem};
 
 use export_resolver::ExportList;
 use windows::Win32::{Foundation::GetLastError, System::{Diagnostics::Debug::WriteProcessMemory, Threading::GetCurrentProcess}};
