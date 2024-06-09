@@ -20,12 +20,8 @@ effectively thwarted because the function will immediately return without perfor
 
 ETW bypasses are one method of EDR bypassing and EDR evasion.
 
-For a little fun, I have implemented some of my Hell's Gate work into the library, and I'll probably 
-make it fully Hell's Gate compliant in the future. I use my crate 
-[export-resolver](https://crates.io/crates/export-resolver) to perform the Hell's Gate technique.
-
-If you want to check out my blog post on Hell's Gate, click 
-[here](https://fluxsec.red/rust-edr-evasion-hells-gate).
+I use my crate [export-resolver](https://crates.io/crates/export-resolver) to perform resolve the function virtual addresses 
+dynamically via the PEB.
 
 ## Proof
 
@@ -33,9 +29,14 @@ If you want to check out my blog post on Hell's Gate, click
 
 ![image](https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/fb29813c-0dd5-42c7-bf65-a9c28527651a)
 
+<img width="1481" alt="etw-test-1" src="https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/9a7e8f70-5a03-45eb-b5df-53d521693778">
+
+
 **After** patching:
 
 ![image](https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/9fe3a86b-fdd5-41e4-aad6-7faa997abf97)
+
+<img width="1259" alt="etw-test-two" src="https://github.com/0xflux/ETW-Bypass-Rust/assets/49762827/3365bd7a-21d6-4b4c-98c9-283eb25ef6da">
 
 # LEGAL DISCLAIMER 
 
